@@ -19,6 +19,9 @@ public class AloSpringApp {
 			
 			System.out.println(treinador.getTreinoDiario());
 			
+			//Novo metodo disponivel pela injection
+			System.out.println(treinador.getDailyFortune());
+			
 			//Encerrar o contexto
 			context.close();
 	}

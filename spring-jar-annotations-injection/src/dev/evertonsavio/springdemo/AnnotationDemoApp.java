@@ -11,7 +11,7 @@ public class AnnotationDemoApp {
 				new ClassPathXmlApplicationContext("applicationContext.xml");
 		
 		//Adquirir o bean do container
-		Coach theCoach = context.getBean("thatSillyCoach", Coach.class);
+		Coach theCoach = context.getBean("tennisCoach", Coach.class); //("thatSillyCoach", Coach.class);
 		
 		//chamar o metodo do bean
 		System.out.println(theCoach.getDailyWorkout());

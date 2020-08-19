@@ -1,4 +1,4 @@
-### Annotation Injection Development Process  
+### Annotation Injection Development Process  (Inversion of Control)
   
 1. Habilitar componente a escanear a config file (container);  
 ``` <context:component-scan base-package="dev.evertonsavio.springdemo"></context:component-scan>```

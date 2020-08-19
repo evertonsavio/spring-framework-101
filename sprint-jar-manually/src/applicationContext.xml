@@ -23,7 +23,13 @@
  	
  	<bean id="meuTreinadorCricket"
  		class="dev.evertonsavio.springdemo.TreinadorCricket">
+ 		
+ 		<!-- Set up setter injection -->
  		<property name="fortunaService" ref="minhaFortuna"></property>
+ 		
+ 		<!-- injection literal values -->
+ 		<property name="emailAddress" value="theBest@hotmail.com"></property>
+ 		<property name="team" value="Muito Bom!"></property>
  	</bean>
 
 </beans>

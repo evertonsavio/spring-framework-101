@@ -14,7 +14,9 @@ public class SetterDemoApp {
 		System.out.println(oTreinador.getDailyFortune());
 		System.out.println(oTreinador.getTreinoDiario());
 		
-
+		System.out.println(oTreinador.getEmailAddress());
+		System.out.println(oTreinador.getTeam());
+	
 	}
 
 }

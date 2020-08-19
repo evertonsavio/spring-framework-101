@@ -1,6 +1,6 @@
 package dev.evertonsavio.springdemo;
 
-public class Main {
+public class MainWithoutIoCInjection {
 
 	public static void main(String[] args) {
 		

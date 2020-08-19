@@ -20,7 +20,11 @@
  		class="dev.evertonsavio.springdemo.TreinadorRastreador">
  		<constructor-arg ref="minhaFortuna"></constructor-arg>	 		
  	</bean>
-
+ 	
+ 	<bean id="meuTreinadorCricket"
+ 		class="dev.evertonsavio.springdemo.TreinadorCricket">
+ 		<property name="fortunaService" ref="minhaFortuna"></property>
+ 	</bean>
 
 </beans>
 

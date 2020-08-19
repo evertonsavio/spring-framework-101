@@ -9,8 +9,8 @@
 * Recuperar os Beans do container 
 > When Java objects are created by the Spring Container, then Spring refers to them as "Spring Beans".
 --------------------------  
-* applicationContext.xml
-```
+* applicationContext.xml  
+```  
 <bean id="Treinador"
  class="dev.evertonsavio.springdemo.RastrearTreinador">	 		
  </bean>

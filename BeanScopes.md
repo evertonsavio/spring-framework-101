@@ -1,4 +1,4 @@
-### Default Singleton  
+### Default -> Singleton  
 
 * Uma instancia da Bean. Todas as requisicoes vao para essa Bean.  
   
@@ -6,5 +6,5 @@
   
 * Cria uma bean nova para cada requisicao de container  
   
-* Bom para estado de dados.  
-  
+* Bom para estado de dados. 
+   

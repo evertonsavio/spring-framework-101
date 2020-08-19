@@ -13,6 +13,6 @@
 ### Setter Injection  
   
 1. Criar metodo setter na class para injections  
-  
-2. Configurar a dependencia no Spring Config file.  
+    
+2. Configurar a dependencia no Spring Config file.    
 

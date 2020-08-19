@@ -24,5 +24,20 @@ public class TreinadorRastreador implements Treinador {
 		
 		return "Just Do It: " + fortunaService.getFortune();
 	}
+	
+//Bean lifecycle
+// Add init method
+	public void doMyStartUpStuff() {
+		System.out.println("Starting Stuff..");
+	}
+	
+	public void doMyCleanUpStuff() {
+		System.out.println("Destroy Stuff..");
+	}
+	
+// add a destroy method
 
 }
+
+
+

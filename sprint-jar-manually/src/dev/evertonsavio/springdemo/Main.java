@@ -4,9 +4,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Treinador treinadorDeFutebol = new TreinadorRastreador();
+		Treinador treinadorRastreador = new TreinadorRastreador();
 		
-		System.out.println(treinadorDeFutebol.getTreinoDiario());
+		System.out.println(treinadorRastreador.getTreinoDiario());
 		
 	}
 

@@ -21,3 +21,6 @@
   
 2. Configurar as dependencias de injection com @Autowired Annotation  
   
+### Field Injection com Java Reflection  
+  
+1. Configurar o Autowired diretamente no field / private Interface

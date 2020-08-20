@@ -13,4 +13,11 @@
     
 2. Criar um construtor na sua classe para injections.  
   
-3. Configurar a dependencia injection @Autowired Annotation
+3. Configurar a dependencia injection @Autowired Annotation  
+  
+### Setter Injection  
+
+1. Criar o methodo setter na classe para injection  
+  
+2. Configurar as dependencias de injection com @Autowired Annotation  
+  

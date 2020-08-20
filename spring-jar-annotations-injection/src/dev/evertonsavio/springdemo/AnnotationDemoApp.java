@@ -16,6 +16,9 @@ public class AnnotationDemoApp {
 		//chamar o metodo do bean
 		System.out.println(theCoach.getDailyWorkout());
 		
+		//chamar o metodo da dependecia
+		System.out.println(theCoach.getDailyFortune());
+		
 		//Fechar o context
 		context.close();
 	}

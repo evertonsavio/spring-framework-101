@@ -1,12 +1,14 @@
 package dev.evertonsavio.springdemo;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component //("thatSillyCoach") //been ID thatSillyCoach
 public class TennisCoach implements Coach {
 	
 	@Autowired //Aplica direto no field atraves de Java Reflection, mto bom!
+	@Qualifier("randomFortuneService") //Porque temos varias implementacoes para a FortuneService
 	private FortuneService fortuneService;
 	
 	private TennisCoach() {

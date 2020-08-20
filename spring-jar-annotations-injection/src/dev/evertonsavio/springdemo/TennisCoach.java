@@ -8,8 +8,17 @@ public class TennisCoach implements Coach {
 	
 	private FortuneService fortuneService;
 	
-	@Autowired
+	private TennisCoach() {
+		//Construcor with no parameter
+	};
+	
+	/*@Autowired
 	private TennisCoach(FortuneService fortuneService) {
+		this.fortuneService = fortuneService;
+	}*/
+	
+	@Autowired
+	public void setFortuneService(FortuneService fortuneService) {
 		this.fortuneService = fortuneService;
 	}
 

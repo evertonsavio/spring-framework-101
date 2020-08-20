@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 @Component //("thatSillyCoach") //been ID thatSillyCoach
 public class TennisCoach implements Coach {
 	
+	@Autowired //Aplica direto no field atraves de Java Reflection, mto bom!
 	private FortuneService fortuneService;
 	
 	private TennisCoach() {
@@ -17,10 +18,10 @@ public class TennisCoach implements Coach {
 		this.fortuneService = fortuneService;
 	}*/
 	
-	@Autowired
+	/*@Autowired
 	public void setFortuneService(FortuneService fortuneService) {
 		this.fortuneService = fortuneService;
-	}
+	}*/
 
 	@Override
 	public String getDailyWorkout() {

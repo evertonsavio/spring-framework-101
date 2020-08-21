@@ -16,7 +16,7 @@ public class TennisCoach implements Coach {
 	@Qualifier("randomFortuneService") //Porque temos varias implementacoes para a FortuneService
 	private FortuneService fortuneService;
 	
-	private TennisCoach() {
+	public TennisCoach() {
 		//Construcor with no parameter
 	};
 	
